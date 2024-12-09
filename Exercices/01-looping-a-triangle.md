@@ -19,3 +19,12 @@ let abc = "abc";
 console.log(abc.length);
 // → 3
 ```
+## Solution
+
+```js
+let result = '#';
+for (let i = 0; i < 7; i++) {
+    console.log(result);
+    result += '#';
+}
+```
