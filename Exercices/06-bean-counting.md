@@ -16,3 +16,27 @@ console.log(countBs("BBC"));
 console.log(countChar("kakkerlak", "k"));
 // → 4
 ```
+
+## Solution
+
+```js
+function countBs(mot) {
+    let nbOfBs = 0;
+    for (let i = 0; i <= mot.length; i++) {
+        if (mot[i] === "B") {
+            nbOfBs += 1;
+        }
+    }
+    return nbOfBs;
+}
+
+function countChar(mot, lettre) {
+    let nbOfletters = 0;
+    for (let i = 0; i <= mot.length; i++) {
+        if (mot[i] === lettre) {
+            nbOfletters += 1;
+        }
+    }
+    return nbOfletters;
+}
+```
