@@ -18,3 +18,17 @@ console.log(range(5, 2, -1));
 console.log(sum(range(1, 10)));
 // → 55
 ```
+
+## Solution
+
+```js
+function range(start, end) {
+    let tabRange = new Array((end - start));
+    for (let i = 0; i < end; i++) {
+        tabRange[i] = start++;
+    }
+    return tabRange;
+}
+
+console.log(range(3, 5));
+```
