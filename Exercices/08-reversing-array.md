@@ -35,7 +35,7 @@ function reverseArrayInPlace(array) {
   }
 }
 
-console.log(reverseArray(["A", "B", "C"]));
+console.log(reverseArray(["C", "D", "A"]));
 
 let arrayValue = [1, 2, 3, 4, 5];
 reverseArrayInPlace(arrayValue);
